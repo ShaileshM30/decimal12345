@@ -28,7 +28,7 @@ class optional {
    static void sortmethod(){
         List<Student> n=StudentDataBase.getAllStudents();
         // n.sort((s1,s2)->s2.getName().compareTo(s1.getName()));
-         System.out.println(n);
+         //System.out.println(n);
         n.sort(s.thenComparing(s1));
         n.forEach(s->System.out.println(s));
 
